@@ -1,14 +1,84 @@
 body {
-  margin-top: 40px;
-  background-color: black;
-  color: black;
+  background-color: #f7f7f7;
 }
 
-.jumbotron {
-  background-color: #FFF;
+a.anchor {
+  display: block;
+  position: relative;
+  top: -65px;
+  color: red;
+  visibility: hidden;
 }
 
-.about-text {
-  font-size: 15px !important;
-  text-indent: 30px;
+.title {
+  margin-top: 30px;
+  font-family: 'Kaushan Script', cursive;
+  margin-bottom: 30px;
+}
+
+#page-top-div {
+  background-image:url(https://static.pexels.com/photos/305818/pexels-photo-305818.jpeg);
+  background-size:cover;
+  height:900px;
+  margin-top: -200px;
+}
+
+.button {
+  color: #222;
+  border:solid 2px #222;
+  border-radius:50%;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  text-align:center;
+  font-size:25px;
+  line-height:48px;
+  transition:all .4s ease-in-out;
+}
+.button:hover {
+  border:solid 2px #fff;
+  color: #fff;
+  background: #222;
+}
+
+.block{
+  background-color:rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+  position: relative;
+  top: 700px;
+}
+
+.album {
+  padding-bottom: 3rem;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 85%;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.navbar {
+  font-family: 'Kaushan Script', cursive;
 }
